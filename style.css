@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+nav h1 a{
+    text-decoration: none;
+    color: white;
+}
+nav h1 a:hover{
+    color: antiquewhite;
+}
+li,h1,ul{
+    display: inline;
+    padding: 10px;
+    margin-right: 10px;
+}
+ul{
+    margin-left: 58%;
+}
+
+h1{
+    font-size: 2rem;
+}
+li{
+    font-size: 1.5rem;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(194, 194, 194);
+}
+
+a:hover{
+    color: white;
+}
+
+.search_bar{
+    margin: 30px 10%;
+    width: 80%;
+    height: 50px;
+}
+.search_bar:hover{
+    background-color: antiquewhite;
+}
+.search_bar::placeholder{
+    font-size: 1.5rem;
+}
+
+.product{
+    text-align: center;
+}
+
+.box{
+    width: 300px;
+    display: inline-block;
+    padding-right: 3px;
+    border: black 1px solid;
+}
+
+.box img{
+    width: 290px;
+    height: 300px;
+}
+
+.box p:hover{
+    background-color: antiquewhite;
+}
+.about{
+    padding: 30px;
+    text-align: center;
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.para{
+    padding: 40px;
+}
